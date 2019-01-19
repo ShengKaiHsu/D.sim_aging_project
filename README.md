@@ -1,5 +1,5 @@
 # D.sim_aging_project
-This directory contains the raw count table of in total 15 RNA-Seq libraries as well as the full R script for all the analyses in the following manuscript.
+This repository contains the raw count table of in total 15 RNA-Seq libraries as well as the full R script for all the analyses in the following manuscript.
 
 <b>Title: 24-hour age difference causes twice as much gene expression divergence as 100 generations of adaptation to a novel environment</b>
 
