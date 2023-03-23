@@ -175,7 +175,7 @@ fisher.test(cont_table(c(GO_res_table$age_up$GO.ID[GO_res_table$age_up$Fisher.we
                        GO_res_table$age_up$GO.ID,GO_res_table5$GO.ID[GO_res_table5$Fisher.weight01<0.05]),alternative = "greater")
 
 
-####Step*: Comparison to DESeq2####
+####Step9: Comparison to DESeq2####
 coldata=data.frame(condition=group,type=rep("single-read",length(group)))
 rownames(coldata)=colnames(y_mon)
 dds=DESeqDataSetFromMatrix(countData = monster_counts_use,colData = coldata,design = ~condition)
